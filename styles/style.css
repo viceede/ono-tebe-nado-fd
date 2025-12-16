@@ -5,18 +5,13 @@
 }
 
 .header {
-  min-height: 293px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr min-content 1fr;
   padding: 94px 52px;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-
 .menu-list {
-  width: 500px;
   display: flex;
   gap: 32px;
   list-style: circle;
@@ -42,12 +37,13 @@
 }
 
 .contacts {
-    width: 500px; /* 240px */
+  display: flex;
+  justify-content: flex-end;
 }
 
 .contacts-list {
+  width: 240px;
   list-style: none;
-  padding-left: 50%;
 }
 
 .contacts-list-item__underlined {
