@@ -9,43 +9,55 @@
 		<link rel="stylesheet" href="./styles/global.css" />
 		<link rel="stylesheet" href="./styles/style.css" />
 	</head>
-	<body>
-			<header class="header">
-				<nav class="menu">
-					<ul class="menu-list">
-						<li class="menu-list-item menu-list-item__main">
-							<a class="menu-list-item-link" href="#0">главная</a>
+	<body class="page">
+		<header class="header">
+			<nav class="menu">
+				<ul class="menu-list">
+					<li class="menu-list-item menu-list-item__main">
+						<a class="menu-list-item-link" href="#0">главная</a>
+					</li>
+					<li class="menu-list-item">
+						<a href="#0">посмотреть лоты</a>
+					</li>
+					<li class="menu-list-item">
+						<a href="#0">об аукционе</a>
+					</li>
+				</ul>
+				<img class="logo" src="./images/logo-black.svg" alt="logo-black" />
+				<div class="contacts">
+					<ul class="contacts-list">
+						<li class="contacts-list-item contacts-list-item__underlined">
+							+9 999 555 5555
 						</li>
-						<li class="menu-list-item">
-							<a href="#0">посмотреть лоты</a>
+						<li class="contacts-list-item contacts-list-item__underlined">
+							info@sobaka.ge
 						</li>
-						<li class="menu-list-item">
-							<a href="#0">об аукционе</a>
+						<li class="contacts-list-item">
+							наб. Принсенграхт 263- 265, Амстердам
 						</li>
 					</ul>
-					<img class="logo" src="./images/logo-black.svg" alt="logo-black" />
-					<div class="contacts">
-						<ul class="contacts-list">
-							<li class="contacts-list-item contacts-list-item__underlined">
-								+9 999 555 5555
-							</li>
-							<li class="contacts-list-item contacts-list-item__underlined">
-								info@sobaka.ge
-							</li>
-							<li class="contacts-list-item">
-								наб. Принсенграхт 263- 265, Амстердам
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</header>
-			<main>
-				<section class="cover">
-          <div class="overlay"></div>
-        </section>
-				<section class="lots"></section>
-				<section class="about"></section>
-			</main>
-			<footer></footer>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="cover">
+				<h1 class="cover__title">
+					<span class="aligned-text">Оно</span>
+					<span class="aligned-text aligned-text__center">тебе</span>
+					<span class="aligned-text aligned-text__right">надо</span>
+				</h1>
+				<div class="cover__description">
+					<h2 class="cover__description-text">
+						Аукцион вещей, в которые никто не верил
+					</h2>
+          <div class="bet-button">
+            <a href="#0" class="bet-button__link">Сделать ставку</a>
+          </div>
+				</div>
+			</section>
+			<section class="lots"></section>
+			<section class="about"></section>
+		</main>
+		<footer></footer>
 	</body>
 </html>
