@@ -1,20 +1,17 @@
-.container {
-  width: 1100px;
-  margin: auto;
-}
-
-.cover {
+.header {
   min-height: 293px;
   padding: 94px 52px;
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: 391px 148px 524px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 
 .menu-list {
+  width: 500px;
   display: flex;
   gap: 32px;
   list-style: circle;
@@ -41,14 +38,24 @@
 }
 
 .contacts {
-  width: 240px; /* 240px */
-  margin: auto;
+    width: 500px; /* 240px */
 }
 
 .contacts-list {
-  list-style: none; 
+  list-style: none;
+   padding-left: 50%;
 }
 
 .contacts-list-item__underlined {
   text-decoration: underline;
+}
+
+.cover {
+  min-height: 757px;
+  background: url(../images/cover.jpg) center / cover;
+  
+}
+
+.overlay {
+  background-color: black;
 }
