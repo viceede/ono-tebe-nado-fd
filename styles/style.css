@@ -8,7 +8,7 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 94px 52px;
+  padding: 92px 50px 96px;
 }
 
 .menu-list {
@@ -44,17 +44,16 @@
 .contacts-list {
   width: 240px;
   list-style: none;
-  line-height: 24.3px;
+  line-height: 23px;
 }
 
 .contacts-list-item__underlined {
   text-decoration: underline;
-  
 }
 
 .cover {
   position: relative;
-  padding: 50px;
+  padding: 165px 50px 50px 50px;
   min-height: 757px;
   background: url(../images/cover.jpg) center / cover;
 }
@@ -71,14 +70,14 @@
 
 .cover__title {
   position: relative;
-  display: block;
   font-size: 100px;
   letter-spacing: 30px;
-  line-height: 135px;
-  padding: 1.06em 0;
+  margin-bottom: 108px;
   z-index: 1;
 }
+
 .aligned-text {
+  line-height: 130px;
   color: #fff;
   display: block;
   text-transform: uppercase;
@@ -86,9 +85,11 @@
 
 .aligned-text__center {
   text-align: center;
+  margin-right: -30px;
 }
 .aligned-text__right {
   text-align: right;
+  margin-right: -30px;
 }
 
 .cover__description {
