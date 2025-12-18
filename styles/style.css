@@ -125,11 +125,11 @@
 	list-style: none;
 	display: flex;
 	gap: 25px;
+	flex-wrap: wrap;
 }
 
 .card {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
