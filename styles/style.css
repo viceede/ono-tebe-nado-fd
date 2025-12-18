@@ -39,6 +39,7 @@
 	width: 240px;
 	list-style: none;
 	line-height: 23px;
+	font-style: normal;
 }
 
 .contacts-list-item__underlined {
